@@ -5,5 +5,5 @@ AC_PROG_CC_STDC
 AX_PTHREAD
 AC_CHECK_LIB([pthread],[pthread_create])
 AC_CONFIG_HEADERS([config.h])
-AC_CONFIG_FILES([Makefile src/Makefile src/serial/Makefile src/io/Makefile src/settings/Makefile src/signal/Makefile src/sockets/Makefile src/modbus/Makefile src/webserver/Makefile src/modbusrtu/Makefile src/thread/Makefile])
+AC_CONFIG_FILES([Makefile src/Makefile])
 AC_OUTPUT
